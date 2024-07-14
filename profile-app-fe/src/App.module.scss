@@ -1,0 +1,83 @@
+.topLevelParentContainer{
+    //border: 2px solid green;
+    padding: 20px;
+}
+
+.formContainer{
+    //border: 1px solid red
+}
+
+.messageContainer{
+    //border: 1px solid blue
+}
+
+.labelContainer{
+    //border: 1px solid yellow;
+    width: 100px;
+    display: inline-flex;
+}
+
+.inputContainer{
+    height: 20px;
+    width: 300px;
+    padding: 5px;
+}
+
+.formInputLabelContainer{
+    margin-bottom: 10px;
+}
+
+.formSubmitEditContainer{
+    display: inline-flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.subButton{
+    padding: 10px;
+    border: none;
+    //border-radius: 5px;
+    margin-right: 20px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    //transition: border 0.15s;
+}
+
+.subButton:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.editButton{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.editButton:hover{
+    cursor: pointer;
+}
+
+.fetchingRecordMessageContainer{
+    margin: 30px 0px 10px 0px;
+}
+
+.searchContainer{
+    width: 300px;
+    height: 28px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.errorMessageContainer{
+    margin: 10px 0px 10px 0px;
+}
+.searchInputContainer{
+    margin-bottom: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
